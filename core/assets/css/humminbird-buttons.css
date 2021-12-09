@@ -1,0 +1,371 @@
+/*
+----------------------------------------------------------
+
+#Buttons
+
+----------------------------------------------------------
+*/
+
+
+.btn,
+.btn-link,
+.rev-btn,
+.btn-default,
+.t-entry-readmore .btn,
+.style-light .btn-default,
+.style-dark .style-light.style-override .btn-default,
+.style-dark .style-light .btn-default  {
+    border: solid 2px;
+    background-image: none;
+    min-width: 200px;
+    padding: 9px 22px 9px 70px !important;
+    text-align: center;
+    transition-duration: .8s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    white-space: nowrap;
+    width: auto;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff !important;
+    border-color: #e7a72d !important;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+.btn:hover,
+.btn-link:hover,
+.rev-btn:hover,
+.btn-default:hover,
+.t-entry-readmore .btn:hover,
+.style-light .btn-default:not(.btn-hover-nobg):not(.icon-animated):not(.btn-flat):hover, .style-dark .style-light.style-override .btn-default:not(.btn-hover-nobg):not(.icon-animated):not(.btn-flat):hover, .style-dark .style-light .btn-default:not(.btn-hover-nobg):not(.icon-animated):not(.btn-flat):hover, .style-light .btn-default.active, .style-dark .style-light.style-override .btn-default.active, .style-dark .style-light .btn-default.active {
+    background-color: #e7a72d !important;
+    border-color: #e7a72d !important;
+    box-shadow: none;
+    color: #fff;
+}
+
+.btn:hover .text,
+.btn-link:hover .text,
+.rev-btn:hover .text,
+.btn-default:hover .text,
+.t-entry-readmore .btn:hover .text{
+    color: #fff !important;
+    
+}
+.btn::before,
+.btn-link::before,
+.rev-btn::before,
+.btn-default::before,
+.t-entry-readmore .btn::before{
+    color: #000;
+    border-color: #e7a72d !important;
+    line-height: 44px;
+    padding-left: 17px;
+    padding-right: 17px;
+    vertical-align: middle;
+    border-right: 2px solid;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    animation-fill-mode: forwards;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 44px;
+    content: "\e901";
+    font-family: 'humminbird' !important;
+    font-size: 13px;
+    font-weight: 100;
+    opacity: 1;
+    transition-duration: .5s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.46,0.26,0.43,0.99);
+}
+.btn:hover:before,
+.btn-link:hover:before,
+.rev-btn:hover:before,
+.btn-default:hover:before,
+.t-entry-readmore .btn:hover:before {
+    color: #fff !important;
+    fill: #fff !important;
+}
+.btn::after,
+.btn-link::after,
+.rev-btn::after,
+.btn-default::after,
+.t-entry-readmore .btn::after{
+    border-color: #fff !important;
+    border-right: 2px solid;
+    content: ' ';
+    top: -100%;
+    height: 100%;
+    transition: all 0.4s 0.2s cubic-bezier(0.46,0.26,0.43,0.99);
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    width: 44px;
+    
+}
+.btn:hover:after,
+.btn-link:hover:after,
+.rev-btn:hover:after,
+.btn-default:hover:after,
+.t-entry-readmore .btn:hover:after {
+    top: 0;
+
+}
+.btn .text,
+.btn-link .text,
+.rev-btn .text,
+.btn-default .text,
+.t-entry-readmore .btn .text{
+    font-size: 15px !important;
+    letter-spacing: 4px;
+    line-height: 1.65;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0;
+    font-weight: 700;
+    font-style: normal;
+    color: #000 !important;
+}
+.btn .borders,
+.btn-link .borders,
+.rev-btn .borders,
+.btn-default .borders,
+.t-entry-readmore .btn .borders{
+    color: #fff;
+}
+
+
+
+
+/* Paragraph links */
+p a,
+a.link{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 0.1em 0.2em;
+    background-image: linear-gradient(#e7a72d 0%,#e7a72d 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    transition: background 200ms ease-out !important;
+    outline: none;
+}
+
+p a:hover,
+a.link:hover{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 0.1em 0.2em;
+    background-image: linear-gradient(#e7a72d 0%,#e7a72d 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 100%;
+}
+
+body.textual-accent-color .post-content > div p:not(.entry-small):not(.panel-title):not(.t-entry-member-social) a:not(.btn),
+body.textual-accent-color .post-content p:not(.entry-small):not(.panel-title):not(.t-entry-member-social) a:not(.btn-text-skin):hover:not(.btn){
+    color: inherit !important;
+}
+/* revolution slider btn style*/
+
+
+
+.btn-inline{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    height: 30px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 15px;
+    width: auto;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.btn-inline::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 55%;
+    background: #e7a72d;
+    transition: all .1s ease-in-out;
+    color: inherit;
+}
+.btn-inline:hover:before{
+    width: 100%;
+}
+
+
+.btn-alt {
+    color: #e7a72d !important;
+}
+.btn-alt::before{
+    right:auto;
+    left: 0;
+    text-align: left;
+    background: transparent;
+    border: solid 2px #e7a72d;
+    color: inherit;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    transition: all .3s ease;
+    padding-left: 3px;
+
+}
+.btn-alt .text{
+    letter-spacing: 3px;
+    color: inherit;
+    padding-left: 20px;
+    color: inherit !important;
+
+}
+.btn-alt .borders{
+    display: none;
+}
+.btn-alt:hover:before{
+    transform: none !important;
+    background-color: #e7a72d;
+    border-color: #000;
+    color: #000;
+}
+.btn-alt:hover .text{
+    transform: none !important;
+}
+
+
+
+/* Find A Dealer Btn */
+.find-a-dealer{
+    margin-bottom: 40px;
+}
+
+.btn, .btn-link, .rev-btn, .find-a-dealer, 
+.t-entry-readmore .btn, .style-light .find-a-dealer, 
+.style-dark .style-light.style-override .find-a-dealer, 
+.style-dark .style-light .find-a-dealer{
+background-color: transparent !important;
+}
+
+.btn, .btn-link, .rev-btn, .find-a-dealer .text, 
+.t-entry-readmore .btn, .style-light .find-a-dealer .text, 
+.style-dark .style-light.style-override .find-a-dealer .text, 
+.style-dark .style-light .find-a-dealer .text{
+    color: #e7a72d !important;
+}
+
+.btn, .btn-link, .rev-btn, .find-a-dealer:hover .text, 
+.t-entry-readmore .btn, .style-light .find-a-dealer:hover .text, 
+.style-dark .style-light.style-override .find-a-dealer:hover .text, 
+.style-dark .style-light .find-a-dealer:hover .text{
+    color: #fff !important;
+}
+
+.find-a-dealer::before{
+    color: #e7a72d !important;
+}
+
+.find-a-dealer{
+    margin-bottom: 6px !important;
+}
+
+
+
+/* Product Comapre Btn */
+.product-compare-btn.btn-default{
+    margin-bottom: 40px;
+}
+.btn, .btn-link, .rev-btn, .product-compare-btn, 
+.t-entry-readmore .btn, .style-light .product-compare-btn, 
+.style-dark .style-light.style-override .product-compare-btn, 
+.style-dark .style-light .product-compare-btn{
+    color: #e7a72d !important;
+}
+
+.btn, .btn-link, .rev-btn, .product-compare-btn:hover, 
+.t-entry-readmore .btn, .style-light .product-compare-btn:hover, 
+.style-dark .style-light.style-override .product-compare-btn:hover, 
+.style-dark .style-light .product-compare-btn:hover{
+    color: #fff !important;
+}
+
+
+.btn, .btn-link, .rev-btn, .product-compare-btn, 
+.t-entry-readmore .btn, .style-light .product-compare-btn, 
+.style-dark .style-light.style-override .product-compare-btn, 
+.style-dark .style-light .product-compare-btn{
+    background-color: transparent !important;
+}
+
+.product-compare-btn::before{
+    color: #e7a72d;
+    content: "\e911" !important;
+    font-weight: bold;
+}
+.product-compare-btn{
+    margin-bottom: 6px !important;
+}
+
+.style-light .btn-default:not(.btn-hover-nobg):not(.icon-animated):not(.btn-flat):hover, .style-dark .style-light .btn-default:not(.btn-hover-nobg):not(.icon-animated):not(.btn-flat):hover, .tmb-light .t-entry-text .btn-default:not(.btn-hover-nobg):not(.icon-animated):not(.btn-flat):hover, .style-dark .tmb-light .t-entry-text .btn-default:not(.btn-hover-nobg):not(.icon-animated):not(.btn-flat):hover{
+    color: #fff !important;
+}
+
+.btn-video-single{
+    border: solid 2px #e7a72d !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: all ease 250ms;
+    transform: scale(1);
+    padding: 30px !important;
+    min-width: 120px !important;
+}
+.btn-video-single .text{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #e7a72d !important;
+}
+.btn-video-single .text i{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.btn-video-single .borders,
+.btn-video-single::before,
+.btn-video-single::after{
+    display: none !important;
+}
+
+.btn-video-single:hover{
+    background: transparent !important;
+    border: solid 2px #e7a72d !important;
+    transform: scale(1.3);
+    
+}
+.btn-video-single:hover .text{
+    color: #000 !important;
+}
+
+
+
+
+.loadmore-button .btn-default{
+    color: #222 !important;
+}

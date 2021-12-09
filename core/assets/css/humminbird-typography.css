@@ -1,0 +1,450 @@
+
+.padding-left-25{
+    padding-left: 25px;
+}
+
+
+
+/*
+----------------------------------------------------------
+
+#HEADING TITLES
+
+----------------------------------------------------------
+*/
+
+.hb-heading-title .heading-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hb-heading-title .heading-text h2{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+.hb-heading-title .heading-text h2::before{
+    background: #54565B;
+    content: '';
+    height: 2px;
+    width: auto;
+    min-width: 32px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+.hb-heading-title .heading-text h2::after{
+    background: #54565B;
+    content: '';
+    height: 2px;
+    width: auto;
+    min-width: 32px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+.hb-heading-title .heading-text h2 span{
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    padding: 0 25px 0 27px;
+    font-size: 18px;
+    letter-spacing: 9px;
+    line-height: 24px;
+    color: #54565B;
+    font-weight: 400;
+    font-style: normal;
+}
+@media only screen and (max-width: 960px) {
+    .hb-heading-title .heading-text h2 span{
+        white-space: normal !important;
+    }
+}
+
+.hb-heading-title .heading-text .text-lead{
+    padding: 0;
+    margin: 0;
+}
+
+.hb-heading-title .heading-text .text-lead p{
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 52px;
+    text-align: center;
+    color: #54565B;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+    .hb-heading-title .heading-text h2 span{
+        display: none;
+    }
+    .hb-heading-title .heading-text .text-lead p{
+        font-size: 40px;
+        line-height: 44px;
+        font-family: 'KlavikaBold',Arial,sans-serif;
+    }
+}
+
+
+
+.hb-heading-title-2{
+    margin-top: -49px !important;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    display: inline-block;
+    padding: 25px;
+}
+.hb-heading-title-2 h2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    margin-top: 3px;
+    letter-spacing: 8px;
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #54565B;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 16px !important;
+    font-family: 'KlavikaRegular',Arial,sans-serif;
+
+}
+
+.hb-heading-title-2 p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'KlavikaBold',Arial,sans-serif;
+    color: #54565B;
+    text-transform: none;
+    letter-spacing: 4px;
+    font-size: 40px;
+    line-height: 43px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.hb-heading-title-2 p::after{
+    background: #54565B;
+    content: '';
+    height: 2px;
+    width: auto;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+
+.hb-heading-title-3 h2{
+    margin-top: 12px;
+    font-size: 60px !important;
+    letter-spacing: 5px;
+    line-height: 52px;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    color: #54565B;
+    margin-bottom: 50px;
+}
+.hb-heading-title-3 h2::after{
+    background: #54565B;
+    content: '';
+    height: 2px;
+    width: auto;
+    min-width: 60px;
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.hb-heading-title-4 h2{
+    letter-spacing: 9px;
+    color: #54565B;
+    margin-bottom: 4px;
+    font-size: 18px !important;
+    letter-spacing: 9px;
+    line-height: 24px;
+    font-weight: 400 !important;
+    font-family: 'KlavikaRegular',Arial,sans-serif;
+}
+.hb-heading-title-4 p{
+    margin: 0;
+    padding: 0;
+    color: #54565B;
+    font-weight: bold !important;
+    font-size: 46px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    line-height: 48px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.hb-heading-title-5 h2{
+    color: #54565B;
+    font-size: 60px !important;
+    letter-spacing: 5px;
+    line-height: 52px;
+    font-weight: 700;
+    font-style: normal;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+.hb-heading-title-5 p{
+    margin: 0;
+    padding: 0;
+    color: #54565B;
+    text-align: center;
+    margin-top: 5px;
+    text-transform: Uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.hb-heading-title-6 h2{
+    color: #54565B;
+    font-size: 50px !important;
+    letter-spacing: 5px;
+    line-height: 48px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hb-heading-title-7 h2{
+    color: #54565B;
+}
+
+.hb-heading-title-7 p{
+    margin: 0;
+    padding: 0;
+    color: #54565B;
+}
+
+.hb-heading-title-8 h2{
+    letter-spacing: 2px;
+    color: #343538;
+    margin-bottom: 4px;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    line-height: 16px;
+    font-weight: 700 !important;
+    font-family: 'KlavikaBold',Arial,sans-serif;
+}
+.hb-heading-title-8 p{
+    margin: 0;
+    padding: 0;
+    color: #54565B;
+    font-weight: 300 !important;
+    font-size: 18px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: 'KlavikaRegular',Arial,sans-serif;
+}
+
+/*
+----------------------------------------------------------
+
+#ACCORDION
+
+----------------------------------------------------------
+*/
+.wpb_accordion{}
+
+
+.wpb_accordion a{
+    transition: none !important;
+    background: none;
+    background-image: none;
+    padding: 18px 0px;
+}
+.wpb_accordion a:hover{
+    padding: 18px 0px;
+    transition: none !important;
+    background: none;
+    background-image: none;
+}
+
+.wpb_accordion .wpb_accordion_heading{}
+.wpb_accordion .panel{}
+.wpb_accordion .panel .panel-heading .panel-title span{
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.wpb_accordion .panel .panel-heading .panel-title span::after{
+    color: #e7a72d;
+    font-size: 30px;
+    top: 4px;
+    right: 1px;
+    transition: all .2s ease;
+}
+.wpb_accordion .panel .panel-collapse .panel-body{
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 24px;
+    clear: both;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*
+----------------------------------------------------------
+
+#TITLES
+
+----------------------------------------------------------
+*/
+.mk-title-1 h2{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 10px;
+    line-height: 15px;
+    text-align: left;
+    font-weight: 200;
+    font-style: normal;
+    color: #333;
+    background-color: #fff;
+    font-family: 'KlavikaRegular',Arial,sans-serif;
+    padding:10px 15px;
+}
+.mk-title-1 p{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    color: #fff;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'KlavikaBold',Arial,sans-serif;
+    text-shadow: 0 4px 15px black;
+}
+.mk-title-thin-1{
+    margin-top: 0px !important;
+}
+.mk-title-thin-1 p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(131, 131, 134);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mk-title-thin-1 p strong{
+    color: rgb(131, 131, 134);
+    font-weight: 900;
+}
+.oneboat-title-1{
+    margin-top: 0px !important;
+}
+
+.color-white p{
+    color: #444 !important;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 200 !important;
+    text-align: right !important;
+}
+
+.oneboat-title-1 p{
+    color: #444;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height: 52px;
+    letter-spacing: 6px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'KlavikaBold',Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+.oneboat-title-1 p strong{
+    font-weight: 300;
+    display: inline-block;
+    width: 100%;
+    color: rgb(131, 131, 134);
+}
+
+.oneboat-title-2 p{
+    color: #e7a72d;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 6px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'KlavikaBold',Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+/*
+----------------------------------------------------------
+
+#TABS
+
+----------------------------------------------------------
+*/
+.tab-container .nav-tabs {
+    border-bottom: solid 4px #aaa !important;
+}
+.tab-container .nav-tabs li{
+    margin-bottom: -4px;
+}
+.tab-container .nav-tabs li a{
+    border-bottom: solid 4px #aaa;
+}
+.tab-container .nav-tabs li.active a{
+    border-bottom: solid 4px #e7a72d;
+}
+.tab-container .nav-tabs li.active a span{
+    color: #000;
+}
+.tab-container .nav-tabs li a span{
+    color: #aaa;
+    font-size: 24px;
+    font: 700;
+    font-family: 'KlavikaBold',Arial,sans-serif;
+}

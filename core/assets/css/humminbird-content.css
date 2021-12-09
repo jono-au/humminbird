@@ -1,0 +1,2222 @@
+
+/*
+----------------------------------------------------------
+
+#CONTENT
+
+----------------------------------------------------------
+*/
+
+
+.pro-team-listing .isotope-container .tmb .t-inside {
+    background: none!important;
+}
+
+
+.pro-guide-form input[type="submit"] {
+    background-color: #fdb924;
+}
+
+
+.float-left{
+    float: left !important;
+}
+
+.fade-in{
+    animation: fade-in 2s 1.5s forwards;
+    opacity: 0;
+}
+.fade-in-delay{
+    animation: fade-in 3s 3.2s forwards;
+    opacity: 0;
+}
+@keyframes fade-in {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.no-margin-bottom{
+    margin-bottom: 0px !important;
+}
+
+.no-margin-top{
+    margin-top: 0px !important;
+}
+
+.post-content .vc_row{
+    margin-bottom: 60px;
+}
+.home .post-content .vc_row:first-of-type{
+    margin-bottom: 0px;
+}
+.page .post-content .vc_row:first-of-type{
+    margin-bottom: 0px;
+}
+.post-content .vc_row:last-of-type{
+    margin-bottom: 0px;
+}
+
+.uncode_text_column{
+    height: auto;
+}
+
+
+
+
+.owl-nav-container.btn-default.btn-hover-nobg {
+    display: none!important;
+}
+
+
+
+ .dealerlocator .wpb_accordion .panel .panel-heading .panel-title span::after {
+      top: 50%!important;
+  }
+
+
+
+
+
+
+
+
+
+.hb-home-categories{
+    background-color: #eeeeee !important;
+}
+.hb-home-categories.no-slant{
+    background-color: #fff !important;
+}
+
+.hb-home-categories .wpb_row{
+    height: auto !important;
+}
+
+.hb-home-categories .wpb_column{
+    padding: 0 !important;
+    height: auto !important;
+}
+.hb-home-categories .uncoltable{
+    display: block;
+    height: auto;
+}
+.hb-home-categories .uncell{
+    padding: 0 !important;
+    display: block;
+    height: auto;
+}
+
+.hb-home-categories .uncol{
+    height: auto !important;
+}
+
+.hb-home-categories .uncoltable .column-background .background-inner{
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+    animation: clip-path 2s 2s forwards ease;
+    border-bottom: solid 3px #e7a72d;
+    border-top: solid 8px #fff;
+}
+
+.hb-home-categories.no-slant .uncoltable .column-background .background-inner{
+    clip-path: none !important;
+    animation: none !important;
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+}
+
+@keyframes clip-path {
+    0%{clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);}
+    100%{clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);}
+}
+
+.hb-home-categories .uncont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hb-home-categories .uncont h2{
+    background: #fff;
+    padding: 15px;
+}
+
+.hb-home-categories.no-slant .uncont h2{
+    border-bottom: 0;
+}
+
+.hb-home-categories .btn-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 20% !important;
+    position: relative;
+    top: -1px;
+}
+
+.hb-home-categories.no-slant .btn-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0% !important;
+    position: relative;
+    top: -1px;
+}
+
+.hb-home-categories .btn-container a,
+.hb-home-categories .btn-container a.btn-default:active{
+    background-color: #222 !important;
+}
+
+.btn-color-yellow:not(.btn-hover-nobg):not(.icon-animated):hover, .btn-color-yellow:not(.btn-hover-nobg):not(.icon-animated):focus, .btn-color-yellow:not(.btn-hover-nobg):not(.icon-animated):active{
+    background-color: #222 !important;
+}
+
+.hb-home-categories .btn-container a::before{
+    color: #fff !important; 
+}
+.hb-home-categories .btn-container a .text{
+    color: #fff !important;
+}
+
+
+
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+    .hb-home-categories .uncont{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .hb-home-categories .wpb_column{
+        margin-bottom: 4px;
+    }
+
+    .hb-home-categories .row-parent{
+        padding: 0px !important;
+        margin: 0 !important;
+        padding-left: 50px !important;
+        padding-right: 13px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    .hb-home-categories .uncoltable .column-background .background-inner{
+        border-top: 0;
+        border-bottom: solid 2px #e7a72d;
+    }
+    .hb-home-categories .uncont{
+        padding: 50px !important;
+    }
+    .hb-home-categories .btn-container {
+        margin-left: 0% !important;
+    }
+    .hb-home-categories .uncoltable .column-background .background-wrapper{
+        width: 85%;
+        right:0;
+        left: auto;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+
+
+    .hb-home-categories .uncont h2{
+        font-size: 18px !important;
+    }
+
+    .hb-home-categories .btn-container {
+        position: relative;
+        top: -6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.isotope-container .tmb {
+    padding: 3px;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-title{
+    position: relative;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 4.5px;
+    line-height: 1.33;
+    color: #E6E7E8;
+    margin-bottom: 40px;
+    transition: all ease 800ms;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-title::after{
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    transition: -webkit-transform 200ms 0ms linear;
+    transition: transform 200ms 0ms linear;
+    transition: transform 200ms 0ms linear,-webkit-transform 200ms 0ms linear;
+    -webkit-transform: translateX(110%);
+    transform: translateX(110%);
+    border-bottom: 1px solid rgba(255,198,47,0.4); 
+}
+@keyframes tmbtitleborder {
+    from {transform: translateX(110%);}
+    to {transform: translateX(0%);}
+}
+
+.isotope-container .tmb .t-inside:hover .t-overlay-text .t-entry-title::after{
+    animation: tmbtitleborder 1.5s ease 0s 1 normal forwards;
+    -webkit-animation: tmbtitleborder 1.5s ease 0s 1 normal forwards;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-excerpt{
+    margin-bottom: 20px;
+    transition: all ease 800ms;
+    transition-delay: 500ms;
+    opacity: 0;
+}
+.isotope-container .tmb .t-inside:hover .t-entry-excerpt{
+    opacity: 1;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-excerpt p{
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: left;
+}
+.isotope-container .tmb .t-entry-readmore .btn-alt .text,
+.isotope-container .tmb .t-entry-readmore .btn-alt::before{
+    color: #fdb924 !important;
+}
+.isotope-container .tmb .t-entry-readmore .btn-alt:hover .text,
+.isotope-container .tmb .t-entry-readmore .btn-alt:hover:before{
+    color: #000 !important;
+}
+.isotope-container .tmb .t-inside .t-entry-readmore{
+    transition: all ease 800ms;
+    transition-delay: 800ms;
+    opacity: 0;
+}
+.isotope-container .tmb .t-inside:hover .t-entry-readmore{
+    opacity: 1;
+}
+.isotope-container .tmb .t-entry-visual-overlay{
+    padding: 20px;
+}
+.isotope-container .tmb .t-overlay-content{
+    padding: 20px;
+}
+
+.isotope-container .tmb .t-overlay-content .title-clone{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 40px;
+    opacity: 1;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    text-shadow: 0 2px 19px rgba(0,0,0,0.3);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    color: #e6e7e8;
+    text-align: left;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.isotope-container .tmb .t-inside:hover .t-overlay-content .title-clone{
+    opacity: 0;
+}
+
+.page-id-83635 .isotope-container .tmb .t-overlay-content .title-clone{
+    left: 20px;
+    text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.48);
+    background: rgba(0,0,0,.4);
+    font-size: 26px;
+    padding: 4px 9px;
+    margin-right: 20px;
+}
+
+
+
+.pro-team-category .mk-component-page-banner-title-alt .uncont{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.icon-box-icon a{
+    opacity: 1;
+    transition: all ease .3s;
+}
+.icon-box-icon:hover a{
+    opacity: .5;
+}
+
+
+/*
+----------------------------------------------------------
+
+#PRO GUIDES
+----------------------------------------------------------
+*/
+
+
+.page_category-pro-guides .t-inside.animate_when_almost_visible.alpha-anim.start_animation{
+        border-bottom: none!important;
+        box-shadow: none !important;
+}
+
+/*.uncode-wc-single-product-slider-enabled .isotope-container .tmb:hover .t-inside {*/
+    
+/*}*/
+
+
+/*
+----------------------------------------------------------
+
+#PRO TEAM LISTING
+
+----------------------------------------------------------
+*/
+
+
+
+.pro-team-listing .isotope-filters .menu-smart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between !important;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.pro-team-listing .isotope-filters .menu-smart li:first-child{
+    display: none !important;
+}
+
+.pro-team-listing .isotope-filters .limit-width .menu-smart li:nth-child(2){
+    display: inline-block !important;
+}
+
+.pro-team-listing .isotope-filters .menu-smart li{
+    width: 32%;
+    min-width: 32%;
+    max-width: 32%;
+    flex: 32%;
+    margin: 0 !important;
+}
+.pro-team-listing .isotope-filters .limit-width .menu-smart li a{
+    font-size: 32px !important;
+    font-weight: 400;
+    position: relative;
+}
+.pro-team-listing .isotope-filters .menu-smart li a::before{
+    content: 'Pro Team';
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 300px;
+    margin-left: -150px;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 100;
+    color: #fdb924;
+    opacity: .25;
+}
+.pro-team-listing .isotope-filters .menu-smart li:nth-child(2) a::before{
+    content: 'View All';
+}
+
+.pro-team-listing .isotope-filters .limit-width .menu-smart li a.active{
+    color: #fff !important;
+}
+
+.pro-team-listing .isotope-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding:0;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto !important;
+}
+.pro-team-listing .isotope-container .tmb{
+    width: 20% !important;
+    min-width: 20%;
+    max-width: 20%;
+    flex:20%;
+    margin: 0;
+    padding:0;
+    border-radius: none;
+    position: relative !important;
+    top:0 !important;
+    left: 0 !important;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside{
+    padding: 8px;
+    padding-bottom: 0;
+    max-height: 320px;
+    border: 0 !important;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .title-clone{
+    background-color: #333;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px #444;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-background-cover{
+    /* border: solid 2px #444; */
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-overlay-text{
+    padding: 0 !important;
+}
+
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-text{
+    background-color: #333333;
+    text-align: left;
+    position: relative;
+    top: -35px;
+    width: auto;
+    display: inline-block;
+    border: solid 2px #fdb924;
+    padding: 5px;
+    
+}
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-text a{
+    font-weight: 300;
+    font-size: 28px;
+    color: #fff;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-text .t-entry-text-tc{
+    padding:  0;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-excerpt{
+    background-color: rgba(51,51,51,.85);
+    padding: 10px;
+    font-weight: 400;
+}
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-title{
+    background-color: rgba(51,51,51,.85);
+    padding: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1500px) {
+    .pro-team-listing .isotope-container .tmb{
+        width: 25% !important;
+        min-width: 25%;
+        max-width: 25%;
+        flex:25%;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .main-wrapper{
+        padding-top: 80px !important;
+        display: block !important;
+    }
+
+    .pro-team-listing .isotope-container .tmb{
+        width: 50% !important;
+        min-width: 50%;
+        max-width: 50%;
+        flex:50%;
+    }
+    .pro-team-listing .isotope-container .tmb .t-inside .title-clone{
+        font-size: 32px;
+    }
+    .pro-team-listing .isotope-filters .menu-smart{
+        margin-bottom: 10px;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li{
+        width: 49%;
+        min-width: 49%;
+        max-width: 49%;
+        flex: 49%;
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li a::before{
+        font-size: 50px;
+        top:-20px
+    }
+}
+
+
+@media only screen and (max-width: 569px) {
+    .pro-team-listing .isotope-container .tmb{
+        width: 100% !important;
+        min-width: 100%;
+        max-width: 100%;
+        flex:100%;
+    }
+    .pro-team-listing .isotope-container .tmb .t-inside .title-clone{
+        font-size: 26px;
+    }
+    .pro-team-listing .isotope-filters .menu-smart{
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        flex: 100%;
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li a::before{
+        font-size: 40px;
+    }
+
+
+    .mk-one-boat-network .background-wrapper .background-inner{
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+}
+
+
+/*
+----------------------------------------------------------
+
+#ONE-BOAT NETWORK
+
+----------------------------------------------------------
+*/
+.one-boat-network .post-wrapper,
+.one-boat-network .post-wrapper .post-content {
+    background-color: #eee !important;
+}
+/* Banner */
+.one-boat-network .post-wrapper .post-content > .vc_row:nth-child(1){
+    background-color: #fff;
+}
+/* Diagram */
+.one-boat-network .post-wrapper .post-content > .vc_row:nth-child(2){
+    background-color: #fff;
+    margin-bottom: 0 !important;
+}
+/* For anglers everywhere */
+.one-boat-network .post-wrapper .post-content > .vc_row:nth-child(3){
+    background-color: #fff;
+    margin-bottom: 0 !important;
+}
+/* Video */
+.one-boat-network .post-wrapper .post-content > .vc_row:nth-child(4){}
+/* Banner */
+.one-boat-network .post-wrapper .post-content > .vc_row:nth-child(5){
+    background-color: #eee;
+    margin-bottom: 0 !important;
+}
+/* Icons */
+.one-boat-network .post-wrapper .post-content > .vc_row:nth-child(6){
+    background-color: #eee;
+}
+
+/* Homepage */
+
+.one-boat-network-home .btn-container a,
+.one-boat-network-home .btn-container a.btn-default:active{
+    background-color: #222 !important;
+}
+
+.one-boat-network-home .btn-color-yellow:not(.btn-hover-nobg):not(.icon-animated):hover, .btn-color-yellow:not(.btn-hover-nobg):not(.icon-animated):focus, .btn-color-yellow:not(.btn-hover-nobg):not(.icon-animated):active{
+    background-color: #222 !important;
+}
+
+.one-boat-network-home .btn-container a::before{
+    color: #fff !important; 
+}
+.one-boat-network-home .btn-container a .text{
+    color: #fff !important;
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+    .one-boat-network-home .uncell{
+        padding-left: 0 !important;
+    }
+    .one-boat-network-home .mk-title-1 h2{
+        font-size: 14px;
+        letter-spacing: 8px;
+        line-height: 16px;
+        font-family: 'KlavikaBold',Arial,sans-serif;
+    }
+    .one-boat-network-home .mk-title-1 p{
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+
+
+
+
+
+/*
+----------------------------------------------------------
+
+#PRO TEAM SINGLE
+
+----------------------------------------------------------
+*/
+
+.pro-team-category .mk-component-page-banner-title-alt .row-background .vignette{
+    opacity: 0.2 !important;
+} 
+.pro-team-category .mk-component-page-banner-title-alt .row-background .block-bg-overlay{
+    opacity: 0.2 !important;
+}
+
+.mk-component-proteam-about{
+    /* border: dotted pink 1px !important; */
+}
+
+.mk-pro-setup{
+    /* border: double #555 1px !important; */
+}
+
+.mk-pro-info{
+    /* border: dotted pink 1px !important; */
+}
+
+.mk-pro-info .owl-carousel-wrapper .owl-carousel{
+    padding: 0;
+    margin: 0;
+}
+
+.mk-pro-info .owl-carousel-wrapper .owl-carousel .tmb .t-entry-text a{
+    color: #fff !important;
+}
+
+#powerTip {
+    cursor: pointer !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    color: #222 !important;
+    text-transform: uppercase !important;
+    padding: 15px !important;
+    border: solid 2px #fdb924 !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+#powerTip::before{
+    display: none !important;
+}
+
+.mk-pro-team-profile-pic .uncode-single-media-wrapper{
+    width: 400px;
+    float: right;
+}
+.mk-pro-team-profile-pic .uncode-single-media-wrapper img{
+    object-fit: contain;
+    max-width: 100%;
+}
+
+
+/*
+----------------------------------------------------------
+
+#LEARN PAGE -> FISH FINDER SERIES
+
+----------------------------------------------------------
+*/
+
+
+@media only screen and (max-width: 960px) {
+    /* If Image on right side, reverse order on mobile */
+    .mobile-row-reverse .wpb_row{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+
+
+/*
+----------------------------------------------------------
+
+#PRO GUIDES
+
+----------------------------------------------------------
+*/
+.pro-guide-form .gform_wrapper input{
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+.pro-guide-form .gform_wrapper label{
+    text-transform: uppercase;
+}
+path {
+    cursor: pointer;
+    fill: #333;
+  }
+  
+  path:hover {
+    fill: #fdb924;
+  }
+  
+svg text{
+  display: none;
+}
+
+  #popper {
+    visibility: hidden;
+    padding: 1em;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, .3);
+  }
+  
+  
+  
+  
+  
+   
+  /*
+----------------------------------------------------------
+
+#DESKTOP RESPONSIVE
+----------------------------------------------------------
+*/
+
+@media only screen and (min-width: 1440px){
+
+
+
+  /* background components */
+  
+  .hb-bg-components {
+      min-height: 1000px!important;
+  }
+  
+
+
+ /********************* PRO TEAM ****************************/ 
+ 
+ .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead p {
+     letter-spacing: 20px!important;
+ }
+  
+
+  
+  
+}
+
+  
+  
+  
+  
+   /*
+----------------------------------------------------------
+
+#TABLET RESPONSIVE
+----------------------------------------------------------
+*/
+  
+  @media only screen and (min-width: 570px) and (max-width: 768px){
+      
+      .mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2 span {
+          font-size: 75px!important;
+          line-height: 75px!important;
+      }
+      
+      
+      
+      
+      
+  
+  /********************* HOMEPAGE ****************************/
+  
+  .owl-dots.uncode_slider-dot_classes.single-h-padding.owl-dots-classes {
+      text-align: center;
+  }
+  
+  .one-boat-network-home .background-wrapper .background-inner {
+      background-position: left center!important;
+  }
+  
+  
+  .site-footer .wpb_row .wpb_column:first-of-type .uncont .vc_row:nth-child(1) .uncont .uncode-list a {
+        display: block!important;
+        width: auto!important;
+        min-width: auto!important;
+        margin-right: 15px!important;
+        flex: none!important;
+  }
+  
+  
+  .site-footer .wpb_row .wpb_column:first-of-type .uncont .vc_row:nth-child(1) .uncont .uncode-list {
+      justify-content: center!important;
+  }
+  
+  
+  .one-boat-network-home .uncell.vc_custom_1608702127050 {
+      padding-left: 0!important;
+  }
+  
+  
+  
+  
+  
+  /* add bg-banner-content */
+  .bg-banner-content {
+      min-height:400px;
+  }
+  
+  
+  /* add context-txt */ 
+  .context-txt {
+      margin-top: 50px;
+  }
+  
+  
+  
+   /********************* MENU ****************************/
+  body.menu-mobile-centered .main-menu-container .menu-horizontal .menu-horizontal-inner ul.menu-smart li.menu-item > a, body.menu-mobile-centered .vmenu-container .vmenu-row-wrapper .vmenu-wrap-cell ul.menu-smart li.menu-item > a, body.menu-mobile-centered .overlay-menu .navbar-main .menu-sidebar-inner ul.menu-smart li.menu-item > a, body.menu-mobile-centered .main-menu-container .menu-horizontal .menu-horizontal-inner ul.menu-smart li.menu-item-link > a, body.menu-mobile-centered .vmenu-container .vmenu-row-wrapper .vmenu-wrap-cell ul.menu-smart li.menu-item-link > a, body.menu-mobile-centered .overlay-menu .navbar-main .menu-sidebar-inner ul.menu-smart li.menu-item-link > a {
+      font-size: 3.5vw !important;
+  }
+  
+  
+  
+  /********************* FISHFINDERS PAGE ****************************/
+  
+  .hb-home-categories .uncont h2 {
+      padding: 5px!important;
+  }
+  
+  .hb-home-categories .uncont {
+      padding: 120px 0 120px 20px!important;
+  }
+  
+  
+  
+  
+  
+  /********************* SINGLE PRODUCT ****************************/
+  .single-product .hb-product-overview .row {
+      padding-left: 40px!important;
+      padding-right: 40px!important;
+  }
+  
+  .single-product .hb-product-overview .uncont {
+      max-width: none!important;
+  }
+  
+  
+  .mk-component-fresh-salt .product-downloads .uncell .uncont {
+      margin-left: auto!important;
+      margin-right: auto!important;
+  }
+ 
+  .single-product .product-tab ul li {
+      padding-left: 10px!important;
+      margin-left:25px!important;
+  }
+  
+  
+ .single-product .post-body .product .row-inner {
+     max-height: none!important;
+ }
+  
+  .single-product .post-body .product .row-inner .col-lg-8 {
+      padding-bottom: 70px!important;
+  }
+  
+  .product-downloads .uncont {
+      width: 100%!important;
+      padding-left: 20px!important;
+      padding-right: 20px!important;
+  }
+  
+   .woocommerce div.product div.images img, .woocommerce div.single-product div.images img, .woocommerce #content div.product div.images img, .woocommerce #content div.single-product div.images img{
+        max-width: 600px !important;
+        max-height: 600px !important;
+    }
+  
+
+.single-product .hb-product-features-specs .specs .uncode_text_column table {
+    width: 100%!important;
+}
+  
+  .owl-nav-container.btn-default.btn-hover-nobg {
+    display: none;
+}
+  
+  
+  
+  /********************* LEARN FISHFINDERS SERIES ****************************/
+  
+  .ff-series-txt {
+      margin-top:80px!important;
+  }
+  
+  
+   /********************* LEARN FISHFINDERS APEX ****************************/
+
+
+ /* add .fishfinder-series-alltogether */
+.fishfinder-series-alltogether {
+    margin-top: 50px;
+}
+  
+  
+     /********************* LEARN ONE BOAT NETWORK ****************************/
+  
+  .one-boat-network .mk-title-1 p {
+      text-align: right!important;
+  }
+  
+/********************* LEARN ABOUT ****************************/
+  
+  .learn-about .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column {
+      max-width: none!important;
+      padding-left: 0!important;
+  }
+  
+  .learn-about .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap p {
+      text-align: center!important;
+  }
+  
+  .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2 {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+/********************* CONTACT ****************************/
+  
+  .gform_legacy_markup_wrapper .top_label input.medium, .gform_legacy_markup_wrapper .top_label select.medium {
+      width: 100%!important;
+  }
+  
+  
+  
+/********************* DEALER LOCATOR ****************************/
+  
+ 
+  
+  .dealerlocator .asl-p-cont .col-xs-8 {
+      width: auto!important;
+  }
+  
+ .dealerlocator .asl-p-cont .row {
+     margin: 0!important;
+ }
+  
+  
+ body #asl-storelocator.container.storelocator-main.asl-p-cont.full-width {
+     padding: 0!important;
+ }
+  
+  
+  
+  #asl-storelocator.asl-p-cont #asl-list.storelocator-panel .item {
+      padding: 10px 0!important;
+  }
+  
+  
+  
+  /********************* NMEA 2000 ****************************/
+  
+  .nmea-img {
+    height: 300px!important;
+  }
+  
+  
+  /****************** SONAR TECH DUAL SPECTRUM CHIRP SONAR************************/
+  
+  .learn-solar-dual-txt {
+        max-width: none!important;
+        padding-left: 0!important;
+  }
+  
+  
+  .learn-solar-dual .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap p {
+      text-align: center!important;
+  }
+  
+  .learn-solar-dual .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncol {
+      padding: 20px 0px!important;
+  }
+  
+  .dual-spect-better-hardware {
+      margin-top: 200px;
+  }
+  
+  
+  /********************* SONAR TECH SWITCHFIRE ****************************/
+  
+  
+  /* add switchfire-img*/
+  .switchfire-img {
+      height: 300px!important;
+  }
+  
+  
+  .learn-swithfire .mk-component-video-feature-box-alt-2.switchfire-tutorial .wpb_row.row-inner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .learn-swithfire .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap p {
+      text-align: center!important;
+
+  }
+  
+  .switchfire-tutorial {
+      margin-top: -50px!important;
+  }
+  
+  
+  
+  .learn-swithfire .learn-solar-switchfire-first .wpb_row.row-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 36px!important;
+  }
+  
+  
+  /********************* MEGA 360 IMGAING ****************************/
+  
+  .learn-360-every-detail .background-wrapper .background-inner {
+      background-position: center center !important;
+      background-size: 700px!important;
+  }
+  
+  .learn-360-every-detail {
+      margin-top: -550px!important;
+  }
+  
+img.wp-image-88789 {
+    margin-top:1250px!important;
+}
+  
+
+  .imaging-mega-360 .padding-left-25 {
+      padding-left: 0!important;
+  }
+  
+  .imaging-mega-360 .hb-heading-title-2 {
+      width: 75%!important;
+      padding-left: 0!important;
+  }
+  
+  
+  .learn-360-find-fish .background-wrapper .background-inner {
+      background-position: 40px center!important;
+      background-size: 600px!important;
+  }
+  
+  
+  .fish-clockwork {
+      margin-top:700px!important;
+  }
+  
+  .learn-360-find-fish {
+      margin-top: -150px!important;
+  }
+  
+  
+  .learn-360-cheese {
+    margin-top: -200px!important;
+    padding-bottom: 100px;
+}
+  
+  
+  
+  /********************* AUTOCHART ****************************/
+
+
+.learn-mapping-autochart .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap p {
+    text-align: center!important;
+}
+  
+  
+  
+  
+   /********************* IPILOT LINK ****************************/
+  
+  .learn-network-ipilot .hb-heading-title-7 p {
+      text-align: center!important;
+  }
+  
+
+   /********************* BUYING GUIDE ****************************/
+  
+  .learn-buyingguide .mk-component-image-feature-block .wpb_row .wpb_column:first-of-type .uncont {
+      text-align: right!important;
+  }
+  
+  /********************* PRO TEAM ****************************/
+  
+  .pro-team-category .background-wrapper .background-inner {
+      background-position: left center!important;
+  }
+  
+  
+  .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead p {
+      font-size: 130px!important;
+    letter-spacing: 5px!important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*
+----------------------------------------------------------
+
+#MOBILE RESPONSIVE
+----------------------------------------------------------
+*/
+  
+  @media only screen and (max-width: 569px){
+    
+    /*padding website*/
+    .row.full-width.row-parent {
+        padding: 0!important;
+    }
+    
+    
+    .main-container .row-container .row-parent {
+        padding:0!important;
+    }
+    
+    /*.main-container .cols-sm-responsive { margin-left: -18px!important;}*/
+ 
+    .main-container .cols-sm-responsive > div[class*=col-sm] {
+        padding-left: 0px !important;
+        
+    }
+    
+    .main-container .cols-sm-responsive {
+        margin-left: 0!important;
+    }
+    
+    /* single product gallery button */
+.owl-nav-container.btn-default.btn-hover-nobg {
+    display: none!important;
+}
+
+.hb-heading-title .heading-text h2 span {
+    display: inline-block!important;
+    line-height: 16px!important;
+    letter-spacing: 7px!important;
+    text-align: center!important;
+    font-size: 16px!important;
+     padding: 0 13px 0 20px!important;
+}
+ 
+    
+    .hb-heading-title .heading-text h2 {
+        width: 100%!important;
+        text-align: center !important;
+    }
+    
+      .hb-heading-title .heading-text h2::before {
+        display: none!important;
+    }
+    
+    
+    .hb-heading-title .heading-text h2::after {
+        display: none!important;
+    }
+    
+    
+    
+ /*
+----------------------------------------------------------
+HOMEPAGE
+----------------------------------------------------------
+*/
+    /* section fishfinder, accessories, apparel*/
+    
+    /*add #id fishfinders-accessories-apparel*/
+    div#fishfinders-accessories-apparel {
+    padding: 36px 0 36px 0px;
+    }
+    
+    /*banner slider dots*/
+    .owl-dots-align-left .owl-dots {
+        text-align: center!important;
+    }
+    
+    
+    
+    
+  /*
+----------------------------------------------------------
+DEALER LOCATOR
+----------------------------------------------------------
+*/
+    
+    body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel {
+        padding-right: 0!important;
+    }
+    #asl-storelocator.container.storelocator-main.asl-p-cont, 
+    body #asl-storelocator.container.storelocator-main.asl-p-cont.full-width {
+        padding:0!important;
+    }
+    
+    /* margin content*/
+    .asl-p-cont .row {
+        margin:0!important;
+    }
+    
+    /* arrow */
+    .wpb_accordion .panel .panel-heading .panel-title span::after{
+        top: 50%!important;
+    }
+  
+    
+   div#whatis{
+     display:none!important;
+   }
+   
+   /* add page class dealerlocator*/
+    
+   .dealerlocator .background-wrapper .background-inner {
+background-position: center center !important;
+   }
+        
+  /*
+----------------------------------------------------------
+EXPLORE FISHINDERS
+----------------------------------------------------------
+*/
+
+    .page_category-fish-finders div.uncell.single-block-padding {
+            padding: 80px 0 !important;
+    }
+    
+
+  /*
+----------------------------------------------------------
+SINGLE PRODUCT
+----------------------------------------------------------
+*/
+
+.single-product .hb-product-features-specs .features .uncol .uncont > div {
+    padding: 0px!important;
+}
+
+.single-product .product-tab ul li {
+    padding-left: 0!important;
+}
+    
+    .single-product .hb-product-overview .uncont p {
+        margin-bottom:60px!important;
+    }
+    
+    .single-product .hb-product-features-specs .features .uncol .uncont .product-section-title, .single-product .hb-product-features-specs .specs .uncol .uncont .product-section-title{
+        padding-top:40px!important;
+    }
+    .single-product .product-tab ul {
+        padding-left: 20px!important;
+    }
+    .single-product .uncode-single-product-gallery .woocommerce-product-gallery-nav-wrapper .owl-stage {
+        padding-left:15px!important;
+        height: 290px;
+        overflow: scroll;
+    }
+    
+    .single-product .hb-product-features-specs .features .uncol .uncont > div,
+.single-product .hb-product-features-specs .specs .uncol .uncont > div{
+    padding: 0px!important
+}
+
+.single-product .hb-product-overview .uncont{
+    max-width: 90% !important;
+}
+.single-product .post-body .product .row-inner .col-lg-4 .uncont {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+
+.product-tab .mk-component-fresh-salt .row .wpb_column:first-child .uncont .vc_custom_heading_wrap .heading-text h3::after {
+    top:0!important;
+    position: static!important;
+}
+
+.hb-product-features-specs {
+    margin-top: 50px;
+}
+.product-accessories {
+    margin-top: 50px;
+}
+
+
+
+  /*
+----------------------------------------------------------
+    LEARN PAGES
+----------------------------------------------------------
+*/
+
+/*heading*/
+
+.mk-component-page-banner-title .row-parent .uncont {
+    padding: 80px 20px 15px 15px !important;
+}
+
+
+
+  /*
+----------------------------------------------------------
+    FISH FINDER BUYING GUIDE
+----------------------------------------------------------
+*/
+
+.mk-component-image-feature-block .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap {
+        position: relative!important;
+}
+
+div.vc_row.row-container {
+    min-height: 200px!important;
+}
+
+
+/*add learn-buyingguide*/
+.learn-buyingguide .hb-heading-title-2 {
+    width: 85%!important;
+}
+
+.learn-buyingguide .mk-component-image-feature-block .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap {
+    left: 0!important;
+}
+
+
+
+.learn-buyingguide .hb-heading-title-3 h2 {
+        font-size: 50px !important;
+}
+
+
+  /*
+----------------------------------------------------------
+    PRO TEAM
+----------------------------------------------------------
+*/
+
+/*banner*/
+.page_category-pro-team .background-inner.uncode-kburns{
+    background-position: left center!important;
+}
+
+/* pro team member page */
+
+.mk-component-hashtag-media .vc_custom_heading_wrap .text-lead p {
+    font-size: 40px !important;
+    text-align: center !important;
+}
+
+.mk-component-hashtag-media .vc_custom_heading_wrap .text-lead {
+    position: inherit !important ;
+}
+
+
+.mk-component-proteam-about .main-container .row-container .row-parent .single-internal-gutter .uncont > * {
+    margin-top: 0!important;
+}
+
+
+
+  /*
+----------------------------------------------------------
+    LEARN ABOUT HUMMINBIRD
+----------------------------------------------------------
+*/
+
+/*banner background add learn-about page class*/
+
+.learn-about .background-wrapper .background-inner {
+    background-position: center center !important;
+
+}
+
+#history-sounders .background-wrapper .background-inner{
+        background-size:1500px!important;
+}
+
+.about-footer-banner .row.full-width.row-parent {
+    height: 200px!important;
+}
+
+.mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2 {
+    line-height: 0 !important;
+}
+
+.page_category-about-humminbird .hb-heading-title-4 p {
+    font-size: 18px! important;
+    font-weight: 400! important;
+    line-height: 32px !important;
+}
+
+
+.page_category-about-humminbird .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2 {
+        line-height: 26px !important;
+        font-size: 24px !important;
+        letter-spacing: 3px !important;
+        text-align: center!important;
+}
+
+
+.page_category-about-humminbird .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap p{
+        text-align: center!important;
+            font-size: 32px!important;
+}
+
+.page_category-about-humminbird .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column p {
+    text-align: center!important;
+
+}
+
+
+#making-every-cast-count .background-inner {
+    background-position: top!important;
+}
+
+#making-every-cast-count .single-wrapper {
+    max-width: 80%!important;
+}
+
+#making-every-cast-count .wpb_column.pos-middle.pos-center.align_center.column_parent.col-lg-8.single-internal-gutter {
+        margin-top: 350px!important;
+}
+
+
+
+
+  /*
+----------------------------------------------------------
+    LEARN ONE BOAT
+----------------------------------------------------------
+*/
+
+
+.mk-title-1 h2 {
+        line-height: 25px!important;
+}
+
+
+.oneboat-title-1 p {
+    font-size: 32px!important;
+    line-height: 32px!important;
+    letter-spacing: 6px!important;
+    text-align: left!important;
+}
+
+
+.oneboat-title-2 p {
+    font-size: 45px!important;
+    line-height: 40px!important;
+}
+
+
+.mk-component-image-tile .uncont{
+        padding: 75px 20px 50px!important;
+}
+
+
+/*add #comconnect*/
+#comconnect p {
+      font-size: 40px!important;
+        line-height: 34px!important;
+            padding-top: 10px!important;
+
+    
+}
+/*communication connectivity*/
+.one-boat-network .mk-component-icon-tiles .uncont .row-internal {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+
+
+
+  /*
+----------------------------------------------------------
+    LEARN NETWORKING & NAVIGATION TECHNOLOGY
+----------------------------------------------------------
+*/
+
+/* add #mk-learning-networking-txt-block */
+ div#mk-learning-networking-txt-block {
+    padding: 40px 15px;
+}
+  
+  
+    /*
+----------------------------------------------------------
+    LEARN MAPPING
+----------------------------------------------------------
+*/
+  
+  /*add #mk-learn-mapping-txt*/
+  div#mk-learn-mapping-txt {
+      padding: 36px 15px!important;
+  }
+  
+  
+  
+      /*
+----------------------------------------------------------
+    LEARN IMAGING
+----------------------------------------------------------
+*/
+  
+  /* add #mk-learn-imaging-txt*/
+div#mk-learn-imaging-txt {
+    padding: 36px 15px!important;
+}
+
+/* background banner image*/
+
+.learn-imaging .background-wrapper .background-inner {
+    background-position: center left !important;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN FISHFINDER APEX 
+----------------------------------------------------------
+*/
+
+.body-text {
+    padding: 0 15px !important;
+}
+
+.body-text.apex-text {
+    padding-top: 36px!important;
+}
+
+
+#apex-button {
+    white-space: pre-wrap!important;
+}
+
+      /*
+----------------------------------------------------------
+    LEARN FISHFINDER SOLIX 
+----------------------------------------------------------
+*/
+
+/* add page class .learn-solix 
+add .solix-txt */
+
+.uncode_text_column.solix-txt {
+    padding: 36px 15px!important;
+}
+
+.learn-solix .hb-heading-title-4 p {
+    font-size: 42px!important;
+}
+
+/*add solix-btn*/
+.learn-solix .solix-btn {
+    white-space: pre-wrap!important;
+}
+
+
+
+      /*
+----------------------------------------------------------
+    LEARN FISHFINDER HELIX 
+----------------------------------------------------------
+*/
+
+/*add page class learn-helix add learn-helix-column-reverse*/
+.learn-helix .learn-helix-column-reverse .wpb_row.row-inner {
+    display: flex!important;
+    flex-direction: column-reverse!important;
+}
+
+
+.learn-helix .hb-heading-title-5 h2 {
+    font-size: 47px!important;
+    text-align: center !important;
+}
+
+.learn-helix .hb-heading-title-6 h2 {
+    font-size: 46px !important;
+}
+
+
+.learn-helix .hb-heading-title-4 p {
+        font-size: 42px!important;
+}
+
+
+
+      /*
+----------------------------------------------------------
+    LEARN FISHFINDER PIRANHAMAX 
+----------------------------------------------------------
+*/
+
+/*add page class learn-piranha
+ add sharp-image
+*/
+
+.learn-piranha .sharp-image .wpb_row.row-inner {
+    display: flex!important;
+    flex-direction: column-reverse!important;
+}
+
+/*add piranha-btn*/
+
+.learn-piranha .piranha-btn {
+    white-space: pre-wrap!important;
+}
+
+
+
+      /*
+----------------------------------------------------------
+    LEARN SOLAR
+----------------------------------------------------------
+*/
+
+/*add solar-txt*/
+
+.solar-txt {
+    padding-top: 36px;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN SOLAR DUAL SPECTRUM
+----------------------------------------------------------
+*/
+
+
+/*add page class learn-solar-dual*/
+
+
+.learn-solar-dual .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column {
+    padding: 0!important;
+}
+
+
+/* add learn-solar-dual-txt*/
+
+.learn-solar-dual-txt {
+    padding-left: 15px !important;
+    padding-right: 15px!important;
+}
+
+
+/* add row .learn-solar-dual-what-is*/
+
+.learn-solar-dual .learn-solar-dual-what-is .wpb_row.row-inner {
+    display: flex!important;
+    flex-direction: column-reverse!important;
+}
+
+.learn-solar-dual .hb-heading-title-2 p {
+    margin-top: 0!important;
+}
+
+
+.learn-solar-dual .hb-heading-title-2 {
+        width: 100% !important;
+        padding: 25px 0px !important;
+}
+
+.learn-solar-dual .hb-heading-title-5 h2 {
+    font-size: 56px !important;
+}
+
+.learn-solar-dual .hb-heading-title-4 p  {
+    font-size: 44px!important;
+}
+
+.learn-solar-dual .single-block-padding {
+    padding: 0!important;
+}
+
+
+.learn-solar-dual .post-content .vc_row {
+    margin-bottom: 0!important;
+}
+
+
+
+      /*
+----------------------------------------------------------
+    LEARN SOLAR SWITCHFIRE
+----------------------------------------------------------
+*/
+
+/*add page class learn-swithfire*/
+
+.learn-swithfire .learn-solar-switchfire-first .wpb_row.row-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 36px!important;
+}
+
+/* add switchfire-tutorial*/
+
+.learn-swithfire .mk-component-video-feature-box-alt-2.switchfire-tutorial .wpb_row.row-inner {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.learn-swithfire .mk-component-video-feature-box-alt-2 .wpb_column:first-of-type .uncont .btn-container {
+    right: 0!important;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN IMAGING MEGA
+----------------------------------------------------------
+*/
+
+/*add page class learn-mega*/
+
+.learn-mega .hb-heading-title-3 h2 {
+     font-size: 54px !important;
+}
+
+
+.learn-mega  .tab-container .nav-tabs {
+        border-bottom: none!important;
+}
+
+
+.learn-mega .nav-tabs > li > a {
+        padding: 20px 40px 3px 40px!important;
+}
+
+
+.learn-mega .mk-component-video-feature-box-alt-2 .wpb_column:first-of-type .uncont .btn-container {
+    right: 0!important;
+}
+
+
+.learn-mega .hb-heading-title-2 {
+    width: 100% !important;
+    padding: 0!important;
+}
+
+.learn-mega .hb-heading-title-3 h2 {
+    font-size: 44px !important;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN IMAGING SIDE
+----------------------------------------------------------
+*/
+
+/*add page class learn-imaging-side*/
+
+
+.learn-imaging-side .hb-heading-title-4 p {
+    font-size: 45px!important;
+}
+
+
+.learn-imaging-side .hb-heading-title-2 {
+    width: 85%!important;
+        padding: 15px!important;
+}
+
+
+.learn-imaging-side .hb-heading-title-2 p {
+    font-size: 28px!important;
+    line-height: 28px!important;
+
+}
+
+.learn-imaging-side .padding-left-25 {
+    padding-left: 0!important;
+}
+
+
+.learn-imaging-side .hb-heading-title-5 h2 {
+    font-size: 44px !important;
+    line-height: 40px!important;
+        padding: 50px 0!important;
+}
+
+    
+
+     /*
+----------------------------------------------------------
+    LEARN IMAGING DOWN
+----------------------------------------------------------
+*/
+
+/*add page class learn-imaging-down*/
+
+
+
+.learn-imaging-down .hb-heading-title-4 p {
+    font-size: 38px!important;
+}
+
+
+.learn-imaging-down .hb-heading-title-5 h2 {
+    font-size: 44px !important;
+        line-height: 40px!important;
+        padding: 30px 0!important;
+}
+
+.learn-imaging-down .hb-heading-title-2 {
+        width: 100%!important;
+        
+}
+
+.learn-imaging-down  .padding-left-25 {
+    padding-left: 0!important;
+}
+
+
+.learn-imaging-down .hb-heading-title-2 p {
+    font-size: 28px!important;
+    line-height: 28px!important;
+}
+
+
+.learn-imaging-down .hb-heading-title-2 {
+    width: 85%!important;
+    padding: 15px;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN IMAGING MEGA 360
+----------------------------------------------------------
+*/
+
+/*add page class imaging-mega-360*/
+
+
+
+.imaging-mega-360 .empty-space.empty-triple {
+    display: none;
+}
+
+
+
+.imaging-mega-360 .learn-360-every-detail {
+    margin-top: -650px!important;
+ 
+}
+
+img.wp-image-88789 {
+    padding-top: 900px;
+}
+
+
+
+.imaging-mega-360 .learn-360-every-detail .background-inner {
+        background-size: 290px!important;
+        background-position: center center!important;
+}
+
+.imaging-mega-360 .learn-360-every-detail .single-wrapper {
+        max-width: 70%!important;
+}
+
+
+.imaging-mega-360 .hb-heading-title-2 {
+        width: 80%!important;
+            padding: 15px 10px!important;
+}
+
+.imaging-mega-360 .hb-heading-title-2 p {
+    font-size: 31px!important;
+    line-height: 31px!important;
+}
+
+.imaging-mega-360 .padding-left-25 {
+    padding-left: 10px!important;
+}
+
+.imaging-mega-360 .hb-heading-title-3 h2 {
+    font-size: 48px !important;
+}
+
+
+.imaging-mega-360 .learn-360-find-fish {
+    padding-top: 500px!important;
+    margin-top: -210px!important;
+}
+
+/*add responsive blocks dail in*/
+
+.imaging-mega-360 .learn-360-cheese {
+    margin-top:0!important;
+    padding-bottom:70px!important;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN MAPPING AUTOCHART
+----------------------------------------------------------
+*/
+
+/* add page class learn-mapping-autochart */
+
+.learn-mapping-autochart .main-container.row-container.row-parent {
+    padding: 0 !important;
+}
+
+
+.learn-mapping-auto .heading-text.el-text span {
+    font-size: 21px!important;
+    
+}
+
+.mk-component-video-feature-box-alt-2 .wpb_column:first-of-type .uncont .btn-container {
+    right: 0!important;
+}
+
+.learn-mapping-autochart .hb-heading-title-4 p {
+    font-size: 38px!important;
+}
+
+.learn-mapping-autochart .hb-heading-title-2 {
+    width: 85%!important;
+    padding: 0 15px!important;
+}
+
+.learn-mapping-autochart .padding-left-25 {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+
+.learn-mapping-autochart .hb-heading-title-2 p {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.learn-mapping-autochart .learn-autochart-creating-chart {
+    padding: 15px!important; 
+    
+}
+
+.learn-mapping-autochart .mk-component-icon-tiles .uncont .row-internal {
+    padding: 0!important;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN NETWORK GPS
+----------------------------------------------------------
+*/
+
+/* add page class learn-network-gps */
+
+.learn-network-gps .hb-heading-title-2 {
+    width: 85%!important;
+    padding: 15px 0!important;
+}
+
+.learn-network-gps .hb-heading-title-2 p {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.learn-network-gps .padding-left-25{
+    padding-left: 0 !important;
+}
+
+
+.learn-network-gps  .hb-heading-title .heading-text .text-lead p {
+    font-size: 30px!important;
+}
+
+
+      /*
+----------------------------------------------------------
+    LEARN NETWORK IPILOT
+----------------------------------------------------------
+*/
+
+/* add page class learn-network-ipilot */
+
+.learn-network-ipilot-txt {
+    padding: 0 15px;
+}
+
+
+
+      /*
+----------------------------------------------------------
+    LEARN NETWORK NMEA
+----------------------------------------------------------
+*/
+/* add page class learn-network-nmea * /
+
+
+/* add learn-network-nmea-2000 */
+
+.learn-network-nmea-2000 .wpb_row.row-inner{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.learn-network-nmea-2000 .background-wrapper .background-inner {
+    background-size: 300px!important;
+}
+
+.learn-network-nmea-2000 .uncell.single-block-padding {
+        padding: 110px 36px 80px 36px;
+}
+
+
+.learn-network-nmea .hb-heading-title-4 p {
+    font-size: 44px!important;
+}
+
+      /*
+----------------------------------------------------------
+    LEARN NETWORK AUTOPILOT
+----------------------------------------------------------
+*/
+
+
+/* add page class learn-network-autopilot */
+
+
+.learn-network-autopilot .learn-network-autopilot-txt .uncode_text_column {
+    padding-right: 0!important;
+}
+
+
+
+
+      /*
+----------------------------------------------------------
+    FISHFINDERS HELIX
+----------------------------------------------------------
+*/
+
+
+/* add page class fishfinders-helix */
+
+
+.fishfinders-helix .helix-series .background-wrapper .background-inner{
+        background-position: 90%!important;
+        background-size: 180px!important;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+  
+  
+
